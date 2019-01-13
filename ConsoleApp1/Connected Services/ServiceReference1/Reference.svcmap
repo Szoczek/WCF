@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1b9120ac-a22a-4341-bc76-93610865e486" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58370/CystomerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CystomerService.wsdl" MetadataType="Wsdl" ID="3121b474-e69e-41f9-a12b-0f1110781828" SourceId="1" SourceUrl="http://localhost:58370/CystomerService.svc?wsdl" />
+    <MetadataFile FileName="CystomerService.disco" MetadataType="Disco" ID="2463c752-5c6c-4de0-9d6a-f678193def0d" SourceId="1" SourceUrl="http://localhost:58370/CystomerService.svc?disco" />
+    <MetadataFile FileName="CystomerService.xsd" MetadataType="Schema" ID="03927bb3-245e-47c7-b673-b124c729bf79" SourceId="1" SourceUrl="http://localhost:58370/CystomerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CystomerService1.xsd" MetadataType="Schema" ID="db3db079-3291-4c2e-a7e7-aa71204a5243" SourceId="1" SourceUrl="http://localhost:58370/CystomerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CystomerService2.xsd" MetadataType="Schema" ID="3d1c2d4a-815f-4676-8187-2fe0dd662eaf" SourceId="1" SourceUrl="http://localhost:58370/CystomerService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
